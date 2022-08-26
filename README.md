@@ -12,7 +12,7 @@ Run ```calcon build --packcage-select image_reader``` to build the package and `
 ## Run
 Before running any rosbag, Please make sure the image_reader_node subscribed to the throttled topic declared in throttle.sh. To run the code first
 ```
-chmode +x throttle.sh
+sudo chmod +x throttle.sh
 ./throttle.sh
 ```
 Two terminal window will popup and topic will be throttled. Then
